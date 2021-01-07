@@ -19,6 +19,6 @@ func main() {
 	//t.Run()
 
 	// @
-	t := multi_thread.Test03{}
+	t := multi_thread.Test04{}
 	t.Run()
 }
