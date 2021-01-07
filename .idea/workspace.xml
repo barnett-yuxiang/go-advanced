@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5573565-3af0-4f71-b77c-24ac0ea7161d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/array_and_slice_visit.go" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_usage/array_and_slice_visit.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_point.go" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_usage/function_point.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lorene.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_thread/test_01.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_thread/test_02.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multi_thread/test_03.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +45,19 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/advanced_usage" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)">
+  <component name="RunManager" selected="Go Build.go build github.com/barnett-yuxiang/go-advanced">
     <configuration name="go build github.com/barnett-yuxiang/go-advanced (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-advanced" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,15 +71,15 @@
       <module name="go-advanced" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/slice_length_and_capacity.go" />
+      <filePath value="$PROJECT_DIR$/slice_length_and_capacity.go|$PROJECT_DIR$/main.go" />
       <package value="github.com/barnett-yuxiang/go-advanced" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)" />
         <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced" />
+        <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -102,5 +111,26 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/multi_thread/test_03.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/multi_thread/test_03.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/multi_thread/test_03.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
