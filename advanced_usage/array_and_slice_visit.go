@@ -1,8 +1,8 @@
-package main
+package advanced_usage
 
 import "fmt"
 
-func test01() {
+func Test01() {
 	str := "hello world"
 	fmt.Println(str[2:7]) // llo w
 }

@@ -1,11 +1,14 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/test_json"
+import (
+	"github.com/barnett-yuxiang/go-advanced/advanced_usage"
+	"github.com/barnett-yuxiang/go-advanced/test_json"
+)
 
 func main() {
-	test01()
+	advanced_usage.Test01()
 
-	added("a + b", func(a, b int) int {
+	advanced_usage.Added("a + b", func(a, b int) int {
 		return a + b
 	})
 

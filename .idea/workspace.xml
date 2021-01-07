@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5573565-3af0-4f71-b77c-24ac0ea7161d" name="Default Changelist" comment="" />
+    <list default="true" id="d5573565-3af0-4f71-b77c-24ac0ea7161d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/array_and_slice_visit.go" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_usage/array_and_slice_visit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function_point.go" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_usage/function_point.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +42,11 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced_usage" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)">
     <configuration name="go build github.com/barnett-yuxiang/go-advanced (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
