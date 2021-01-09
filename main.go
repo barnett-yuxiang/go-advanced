@@ -1,6 +1,8 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/multi_thread"
+import (
+	"github.com/barnett-yuxiang/go-advanced/utf_8_encoding"
+)
 
 func main() {
 	// @
@@ -19,6 +21,10 @@ func main() {
 	//t.Run()
 
 	// @
-	t := multi_thread.Test04{}
+	//t := multi_thread.Test04{}
+	//t.Run()
+
+	//
+	t := utf_8_encoding.Test01{}
 	t.Run()
 }

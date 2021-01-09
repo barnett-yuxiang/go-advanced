@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5573565-3af0-4f71-b77c-24ac0ea7161d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gen-go/Sample/constants.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-go/Sample/greeter-remote/greeter-remote.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-go/Sample/greeter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-go/Sample/ttypes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-php/Sample/Greeter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen-php/Sample/Types.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thrift/Service.thrift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thrift/User.thrift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utf_8_encoding/test_01.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,16 @@
       <recent name="$PROJECT_DIR$/advanced_usage" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/barnett-yuxiang/go-advanced/gen-go/Sample/greeter-remote">
+  <component name="RunManager" selected="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-advanced" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/barnett-yuxiang/go-advanced (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-advanced" />
       <working_directory value="$PROJECT_DIR$" />
@@ -89,10 +91,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-advanced" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced/gen-go/Sample/greeter-remote" />
         <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced (1)" />
+        <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced/gen-go/Sample/greeter-remote" />
         <item itemvalue="Go Build.go build github.com/barnett-yuxiang/go-advanced" />
       </list>
     </recent_temporary>
