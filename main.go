@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/barnett-yuxiang/go-advanced/utf_8_encoding"
-)
+import "github.com/barnett-yuxiang/go-advanced/advanced_usage"
 
 func main() {
 	// @
@@ -25,6 +23,8 @@ func main() {
 	//t.Run()
 
 	//
-	t := utf_8_encoding.Test01{}
-	t.Run()
+	//t := utf_8_encoding.Test01{}
+	//t.Run()
+
+	advanced_usage.Run()
 }
