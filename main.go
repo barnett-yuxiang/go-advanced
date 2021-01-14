@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/barnett-yuxiang/go-advanced/working_with_errors"
-)
+import "github.com/barnett-yuxiang/go-advanced/advanced_usage"
 
 func main() {
 	// @
@@ -28,6 +26,9 @@ func main() {
 	//t := utf_8_encoding.Test01{}
 	//t.Run()
 
-	t := working_with_errors.Test01{}
+	//t := working_with_errors.Test01{}
+	//t.Foo()
+
+	t := advanced_usage.Test02{}
 	t.Foo()
 }
