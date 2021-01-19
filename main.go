@@ -1,6 +1,8 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/advanced_usage"
+import (
+	"github.com/barnett-yuxiang/go-advanced/file_lock"
+)
 
 func main() {
 	// @
@@ -29,6 +31,9 @@ func main() {
 	//t := working_with_errors.Test01{}
 	//t.Foo()
 
-	t := advanced_usage.Test02{}
-	t.Foo()
+	//t := advanced_usage.Test02{}
+	//t.Foo()
+
+	t := file_lock.Test01{}
+	t.Run()
 }
