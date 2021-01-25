@@ -15,3 +15,9 @@ func (t Test02) Foo() {
 func (t Test02) Bar(data map[string]string) {
 	data["tag"] = "lark"
 }
+
+func (t Test02) dynamic() {
+	var generator TableGenerator
+	generator = ThreadStateGenerator{}
+	_ = generator.Compute()
+}
