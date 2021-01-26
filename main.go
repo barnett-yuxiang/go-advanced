@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/barnett-yuxiang/go-advanced/file_lock"
-)
+import "github.com/barnett-yuxiang/go-advanced/file_lock"
 
 func main() {
 	// @
@@ -36,4 +34,18 @@ func main() {
 
 	t := file_lock.Test01{}
 	t.Run()
+
+	///////////////////////
+	//c := make(chan bool)
+	//m := make(map[string]string)
+	//go func() {
+	//	m["1"] = "a" // First conflicting access.
+	//	c <- true
+	//}()
+	//m["2"] = "b" // Second conflicting access.
+	//<-c
+	//for k, v := range m {
+	//	fmt.Println(k, v)
+	//}
+	///////////////////////
 }
