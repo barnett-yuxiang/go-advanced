@@ -1,6 +1,6 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/file_lock"
+import "github.com/barnett-yuxiang/go-advanced/race_condition"
 
 func main() {
 	// @
@@ -32,8 +32,8 @@ func main() {
 	//t := advanced_usage.Test02{}
 	//t.Foo()
 
-	t := file_lock.Test01{}
-	t.Run()
+	//t := file_lock.Test01{}
+	//t.Run()
 
 	///////////////////////
 	//c := make(chan bool)
@@ -48,4 +48,8 @@ func main() {
 	//	fmt.Println(k, v)
 	//}
 	///////////////////////
+
+	//
+	t := race_condition.Test01{}
+	t.Run()
 }
