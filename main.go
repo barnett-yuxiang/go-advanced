@@ -1,6 +1,6 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/race_condition"
+import "github.com/barnett-yuxiang/go-advanced/cool_shell"
 
 func main() {
 	// @
@@ -50,6 +50,10 @@ func main() {
 	///////////////////////
 
 	//
-	t := race_condition.Test01{}
-	t.Run()
+	//t := race_condition.Test01{}
+	//t.Run()
+
+	cool_shell.Test01()
+	cool_shell.Test01Fixed()
+	cool_shell.TestDeepEqual()
 }
