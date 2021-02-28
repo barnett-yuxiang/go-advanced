@@ -1,6 +1,6 @@
 package main
 
-import "github.com/barnett-yuxiang/go-advanced/cool_shell"
+import "github.com/barnett-yuxiang/go-advanced/advanced_usage"
 
 func main() {
 	// @
@@ -53,7 +53,10 @@ func main() {
 	//t := race_condition.Test01{}
 	//t.Run()
 
-	cool_shell.Test01()
-	cool_shell.Test01Fixed()
-	cool_shell.TestDeepEqual()
+	//cool_shell.Test01()
+	//cool_shell.Test01Fixed()
+	//cool_shell.TestDeepEqual()
+
+	t := advanced_usage.Test03{}
+	t.Foo()
 }
