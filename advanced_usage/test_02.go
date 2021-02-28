@@ -29,13 +29,20 @@ func (t *Test03) Foo() {
 	)
 
 	for _, sample := range batchSamples {
-		fmt.Printf("1.%p\n", &sample)
+		fmt.Printf("1.%p, %s\n", &sample, sample)
+		if sample.Symbols[0] == "main" {
+			sample.Symbols[0] = "new_main"
+		}
+
+		if len(sample.Symbols) > 1 {
+			sample.Symbols = sample.Symbols[1:]
+		}
 	}
 
 	fmt.Println("======")
 
 	for _, sample := range batchSamples {
-		fmt.Printf("2.%p\n", &sample)
+		fmt.Printf("2.%p, %s\n", &sample, sample)
 	}
 
 	fmt.Println("======")
@@ -44,7 +51,7 @@ func (t *Test03) Foo() {
 		if len(sample.Symbols) == 1 {
 			sample.Symbols = sample.Symbols[1:]
 			//batchSamples[ids] = sample
-			//fmt.Println(sample)
+			fmt.Println(sample)
 		} else {
 			sample.Symbols = sample.Symbols[1:]
 			fmt.Println(sample)
@@ -52,8 +59,19 @@ func (t *Test03) Foo() {
 	}
 
 	fmt.Println("======")
-
 	for index, sample := range batchSamples {
 		fmt.Println(index, sample)
 	}
+	fmt.Println("======")
+	for index, sample := range batchSamples {
+		fmt.Println(index, sample)
+	}
+}
+
+func (t *Test03) Boo() {
+	v := []int{1, 2, 3}
+	for i := range v {
+		v = append(v, i)
+	}
+	fmt.Println(v)
 }
